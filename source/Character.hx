@@ -86,9 +86,6 @@ class Character extends FlxSprite
 				nativelyPlayable = true;
 
 				flipX = true;
-
-				setGraphicSize(Std.int((width * 3.5) / furiosityScale));
-
 			case 'eevee':
 				frames = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
 				
@@ -159,6 +156,8 @@ class Character extends FlxSprite
 				antialiasing = false;
 				nativelyPlayable = true;
 				flipX = true;
+
+				setGraphicSize(Std.int((width * 3.5) / furiosityScale));
 
 			case 'bf-cool':
 				frames = Paths.getSparrowAtlas('characters/Cool_BF', 'shared');
