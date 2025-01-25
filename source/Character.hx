@@ -2456,6 +2456,16 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'The Boss Sing note DOWN0', 24, false);
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(32, 35, 61);
+			case 'gorbini':
+				frames = Paths.getSparrowAtlas('splitathon-2/gorbini_assets', 'shared');
+				animation.addByPrefix('idle', 'gorbidle', 24, false);
+				for (anim in ['left', 'down', 'up', 'right'])
+				{
+					animation.addByPrefix('sing${anim.toUpperCase()}', 'gorb$anim', 24, false);
+				}
+				loadOffsetFile(curCharacter);
+				barColor = FlxColor.fromRGB(32, 35, 61);
+
 		}
 		dance();
 
