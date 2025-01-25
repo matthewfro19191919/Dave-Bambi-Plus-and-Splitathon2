@@ -2465,6 +2465,25 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(32, 35, 61);
 
+			case 'fishy':
+				frames = Paths.getSparrowAtlas('splitathon-2/fishyAssets');
+				animation.addByPrefix('idle', "Fish Idle", 24);
+				animation.addByPrefix('singUP', 'Fish Up Note', 24, false);
+				animation.addByPrefix('singDOWN', 'Fish Down Note', 24, false);
+                                animation.addByPrefix('singLEFT', 'Fish Left Note', 24, false);
+				animation.addByPrefix('singRIGHT', 'Fish Right Note', 24, false);
+
+				barColor = FlxColor.fromRGB(235, 135, 0);
+			case 'pewdiepie':
+				frames = Paths.getSparrowAtlas('splitathon-2/pewdiepie', 'shared');
+				animation.addByPrefix('idle', 'pewdiepie idle', 24, false);
+				for (anim in ['right', 'up', 'up', 'right'])
+				{
+					animation.addByPrefix('sing${anim.toUpperCase()}', 'pewdiepie sing $anim', 24, false);
+				}
+				loadOffsetFile(curCharacter);
+				barColor = FlxColor.fromRGB(32, 35, 61);
+
 		}
 		dance();
 
