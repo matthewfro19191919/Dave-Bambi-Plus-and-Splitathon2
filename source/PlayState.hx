@@ -8240,6 +8240,311 @@ class PlayState extends MusicBeatState
 							updatevels = false;
 					}
 	
+				case 'splitathon-2':
+					switch (curStep)
+					{
+						case 3705:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('dave', 'what');
+							addSplitathonChar("bambi-new");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('bambi-new', 'dave-splitathon');
+							}
+						case 4512:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("bambi-shredder");
+						case 6016:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('dave', 'happy');
+							splitathonExpression('bambi', 'yummyCornLol');
+							addSplitathonChar("tristan");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('tristan', 'bambi-new');
+							}
+						case 7040:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('dave', 'happy');
+							splitathonExpression('bambi', 'yummyCornLol');
+							addSplitathonChar("bob");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('bob', 'tristan');
+							}
+						case 7552:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('dave', 'what');
+							splitathonExpression('bambi', 'yummyCornLol');
+							addSplitathonChar("hellbob");
+						case 7933:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('dave', 'what');
+							splitathonExpression('bambi', 'yummyCornLol');
+							addSplitathonChar("");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('', 'hellbob');
+							}
+						case 10816:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							addSplitathonChar("dave-cool");
+							switchBF("bf-cool", boyfriend.getPosition());
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('dave-cool', '');
+							}
+						case 11073:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("");
+							switchBF("bf", boyfriend.getPosition());
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('', 'dave-cool');
+							}
+						case 11437:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("hellbob");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('hellbob', '');
+							}
+						case 11518:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("bob");
+						case 12160:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('', 'bob');
+							}
+						case 13375:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("ron");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('ron', '');
+							}
+						case 15820:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("pewdiepie");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('pewdiepie', 'ron');
+							}
+						case 17505:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("baby");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('baby', 'pewdiepie');
+							}
+						case 18779:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("running_goblin");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('running_goblin', 'baby');
+							}
+						case 20288:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("fishy");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('fishy', 'running_goblin');
+							}
+						case 23775:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("gorbini");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('gorbini', 'fishy');
+							}
+						case 25577:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("boss");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('boss', 'gorbini');
+							}
+						case 25577:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("ron");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('ron', 'boss');
+							}
+						case 25983:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("boss");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('boss', 'ron');
+							}
+						case 26607:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("ron");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('ron', 'boss');
+							}
+						case 26607:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("little-man");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('little-man', 'ron');
+							}
+						case 27023:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("ron");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('ron', 'little-man');
+							}
+						case 27343:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("bob");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('bob', 'ron');
+							}
+						case 27343:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("boss");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('boss', 'bob');
+							}
+						case 27648:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("bob");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('bob', 'boss');
+							}
+						case 27696:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("boss");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('boss', 'bob');
+							}
+						case 28160:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("bob");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('bob', 'boss');
+							}
+						case 28200:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("boss");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('boss', 'bob');
+							}
+						case 28240:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							splitathonExpression('dave', 'happy');
+							addSplitathonChar("bob");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('bob', 'boss');
+							}
+						case 28437:
+							FlxG.camera.flash(FlxColor.WHITE, 1);
+							splitathonExpression('bambi', 'yummyCornLol');
+							addSplitathonChar("dave-splitathon");
+							if (!hasTriggeredDumbshit)
+							{
+								throwThatBitchInThere('dave-splitathon', 'bob');
+							}
+						case 31120:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub1'), 0.02, 0.6);
+						case 31127:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub2'), 0.02, 0.6);
+						case 31141:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub3'), 0.02, 0.6);
+						case 31148:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub4'), 0.02, 0.6);
+					        case 31141:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub5'), 0.02, 0.6);
+					        case 31185:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub6'), 0.02, 0.6);
+					        case 31201:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub7'), 0.02, 0.6);
+					        case 31208:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub8'), 0.02, 0.6);
+					        case 31232:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub9'), 0.02, 0.6);
+						case 31241:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub10'), 0.02, 0.6);
+						case 31250:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub11'), 0.02, 0.6);
+						case 31141:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub12'), 0.02, 0.6);
+						case 31148:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub13'), 0.02, 0.6);
+					        case 31281:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub14'), 0.02, 0.6);
+					        case 31185:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub15'), 0.02, 0.6);
+					        case 31327:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub16'), 0.02, 0.6);
+					        case 31360:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub17'), 0.02, 0.6);
+					        case 31385:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub18'), 0.02, 0.6);
+						}
 				case 'insanity' | 'insanity-2.5':
 					switch (curStep)
 					{
