@@ -8247,10 +8247,6 @@ class PlayState extends MusicBeatState
 							FlxG.camera.flash(FlxColor.WHITE, 1);
 							splitathonExpression('dave', 'what');
 							addSplitathonChar("bambi-new");
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('bambi-new', 'dave-splitathon');
-							}
 						case 4512:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
 							splitathonExpression('dave', 'happy');
@@ -8258,16 +8254,10 @@ class PlayState extends MusicBeatState
 						case 6016:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
 							splitathonExpression('dave', 'happy');
-							splitathonExpression('bambi', 'yummyCornLol');
 							addSplitathonChar("tristan");
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('tristan', 'bambi-new');
-							}
 						case 7040:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
 							splitathonExpression('dave', 'happy');
-							splitathonExpression('bambi', 'yummyCornLol');
 							addSplitathonChar("bob");
 							if (!hasTriggeredDumbshit)
 							{
@@ -8276,16 +8266,14 @@ class PlayState extends MusicBeatState
 						case 7552:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
 							splitathonExpression('dave', 'what');
-							splitathonExpression('bambi', 'yummyCornLol');
 							addSplitathonChar("hellbob");
 						case 7933:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
 							splitathonExpression('dave', 'what');
-							splitathonExpression('bambi', 'yummyCornLol');
-							addSplitathonChar("");
+							addSplitathonChar("staten");
 							if (!hasTriggeredDumbshit)
 							{
-								throwThatBitchInThere('', 'hellbob');
+								throwThatBitchInThere('staten', 'hellbob');
 							}
 						case 10816:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
@@ -8294,7 +8282,7 @@ class PlayState extends MusicBeatState
 							switchBF("bf-cool", boyfriend.getPosition());
 							if (!hasTriggeredDumbshit)
 							{
-								throwThatBitchInThere('dave-cool', '');
+								throwThatBitchInThere('dave-cool', 'staten');
 							}
 						case 11073:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
@@ -8304,30 +8292,27 @@ class PlayState extends MusicBeatState
 							switchBF("bf", boyfriend.getPosition());
 							if (!hasTriggeredDumbshit)
 							{
-								throwThatBitchInThere('', 'dave-cool');
+								throwThatBitchInThere('staten', 'dave-cool');
 							}
 						case 11437:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
 							splitathonExpression('dave', 'happy');
 							addSplitathonChar("hellbob");
 							if (!hasTriggeredDumbshit)
 							{
-								throwThatBitchInThere('hellbob', '');
+								throwThatBitchInThere('hellbob', 'staten');
 							}
 						case 11518:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
 							splitathonExpression('dave', 'happy');
 							addSplitathonChar("bob");
 						case 12160:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
 							splitathonExpression('dave', 'happy');
-							addSplitathonChar("");
+							addSplitathonChar("staten");
 							if (!hasTriggeredDumbshit)
 							{
-								throwThatBitchInThere('', 'bob');
+								throwThatBitchInThere('staten', 'bob');
 							}
 						case 13375:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
@@ -8336,7 +8321,7 @@ class PlayState extends MusicBeatState
 							addSplitathonChar("ron");
 							if (!hasTriggeredDumbshit)
 							{
-								throwThatBitchInThere('ron', '');
+								throwThatBitchInThere('ron', 'staten');
 							}
 						case 15820:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
