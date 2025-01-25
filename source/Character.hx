@@ -1437,8 +1437,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'bambi-old':
-				var frames = Paths.getSparrowAtlas('joke/bambi-old');
-				frames = frames;
+				frames = Paths.getSparrowAtlas('joke/bambi-old');
 				animation.addByPrefix('idle', 'MARCELLO idle dance', 24, false);
 				animation.addByPrefix('singUP', 'MARCELLO NOTE UP0', 24, false);
 				animation.addByPrefix('singLEFT', 'MARCELLO NOTE LEFT0', 24, false);
@@ -1622,7 +1621,7 @@ class Character extends FlxSprite
 	
 				flipX = true;
 			case 'tristan-beta':
-				var frames = Paths.getSparrowAtlas('dave/classic/beta_tristan');
+				frames = Paths.getSparrowAtlas('dave/classic/beta_tristan');
 				frames = frames;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -1747,7 +1746,7 @@ class Character extends FlxSprite
 		
 				flipX = true;
 			case 'tristan-golden-2.5':
-				var frames = Paths.getSparrowAtlas('dave/classic/tristan_golden');
+				frames = Paths.getSparrowAtlas('dave/classic/tristan_golden');
 				frames = frames;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -1818,7 +1817,7 @@ class Character extends FlxSprite
 			// You can basically ignore everything beyond this point
 			// Most of these are just one-time characters that appear for a few seconds
 			case 'old-cockey':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Cockey', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Cockey', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -1839,7 +1838,7 @@ class Character extends FlxSprite
 			
 
 			case 'old-pissey':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Pissey', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Pissey', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -1860,7 +1859,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'old-pooper':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Pooper', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Pooper', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -1880,7 +1879,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'cockey':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Cockey', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Cockey', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'Cockey idle', 24, false);
 				animation.addByPrefix('singUP', 'Cockey up', 24, false);
@@ -1900,7 +1899,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'older-cockey':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/Cockey', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/Cockey', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'Idle', 24, false);
 				animation.addByPrefix('singUP', 'Up', 24, false);
@@ -1924,7 +1923,7 @@ class Character extends FlxSprite
 			
 
 			case 'pissey':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Pissey', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Pissey', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -1947,7 +1946,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'shartey':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Shartey', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Shartey', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'Shartey idle', 24, false);
 				animation.addByPrefix('singUP', 'Shartey up', 24, false);
@@ -1966,7 +1965,7 @@ class Character extends FlxSprite
 			
 				playAnim('idle');
 			case 'pooper':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Pooper', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Pooper', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -1987,7 +1986,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'pooper-playable':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Pooper', 'shared');
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Pooper', 'shared');
 				frames = frames;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -2008,7 +2007,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'bartholemew':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Bartholemew', "shared");
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/old-characters/Bartholemew', "shared");
 				frames = frames;
 				animation.addByPrefix('idle', 'Dad idle dance', 24);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
@@ -2021,7 +2020,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'kapi':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Kapi', "shared");
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/Kapi', "shared");
 				frames = frames;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -2038,7 +2037,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'cuzsiee':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/cuzsiee', "shared");
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/cuzsiee', "shared");
 				frames = frames;
 				animation.addByPrefix('idle', 'cuzsiee idle', 24, false);
 				animation.addByPrefix('singUP', 'cuzsiee up', 24, false);
@@ -2053,7 +2052,7 @@ class Character extends FlxSprite
 				playAnim('idle');	
 
 			case 'ayo-the-pizza-here':
-				var frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/PizzaMan', "shared");
+				frames = Paths.getSparrowAtlas('eletric-cockadoodledoo/characters/PizzaMan', "shared");
 				frames = frames;
 				animation.addByPrefix('idle', 'Idle', 24);
 				animation.addByPrefix('singUP', 'Up', 24);
