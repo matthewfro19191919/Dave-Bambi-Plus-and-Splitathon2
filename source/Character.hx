@@ -2388,24 +2388,6 @@ class Character extends FlxSprite
 
 				flipX = true;
 			
-			case 'hellbob':
-				frames = Paths.getSparrowAtlas('characters/hellbob_assets');
-				animation.addByPrefix('idle', "bobismad", 24);
-				animation.addByPrefix('singUP', 'lol', 24, false);
-				animation.addByPrefix('singDOWN', 'lol', 24, false);
-				animation.addByPrefix('singUPmiss', 'lol', 24);
-				animation.addByPrefix('singDOWNmiss', 'lol', 24);
-
-				loadOffsetFile(curCharacter);
-
-				playAnim('idle');
-
-				flipX = true;
-
-				globalOffset = [0, 350];
-
-				barColor = 0xFF00000;
-
 			case 'ron':
 				frames = Paths.getSparrowAtlas('characters/Tankman');
 				animation.addByPrefix('idle', "Idle", 24);
