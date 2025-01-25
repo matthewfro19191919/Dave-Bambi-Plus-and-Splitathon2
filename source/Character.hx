@@ -2369,7 +2369,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'Sing Right', 24);
 				animation.addByPrefix('singDOWN', 'Sing Down', 24);
 				animation.addByPrefix('singLEFT', 'Sing Left', 24);
-				loadOffsetFile(curCharacter);
+				loadsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(186, 123, 66);
 
 			case 'bob':
@@ -2383,6 +2383,8 @@ class Character extends FlxSprite
 				barColor = FlxColor.WHITE;
                                 
 				loadOffsetFile(curCharacter);
+
+				globalOffset = [0, 350];
 
 				flipX = true;
 			
@@ -2399,6 +2401,8 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
+
+				globalOffset = [0, 350];
 
 				barColor = 0xFF00000;
 
@@ -2417,7 +2421,8 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 40, -120);
 				addOffset("cheer", 71, -40);
 
-				barColor = 0xFFffd800;	
+				barColor = 0xFFffd800;
+				
 			case 'little-man':
 				frames = Paths.getSparrowAtlas('characters/Small_Guy');
 				animation.addByPrefix('idle', "idle", 24);
@@ -2427,6 +2432,8 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'right', 24, false);
 
 				barColor = 0xFFFFFFF;
+				globalOffset = [0, 120];
+
 			case 'baby':
 				frames = Paths.getSparrowAtlas('characters/baby','shared');
 				animation.addByPrefix('idle', 'baby', 14);
@@ -2436,6 +2443,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'left', 24);
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(179, 255, 255);
+
 			case 'running_goblin':
 				frames = Paths.getSparrowAtlas('characters/running_goblin','shared');
 				animation.addByPrefix('idle', 'idle', 14);
@@ -2445,6 +2453,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'left', 24);
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(179, 255, 255);
+
 			case 'boss':
 				frames = Paths.getSparrowAtlas('characters/bossman','shared');
 				animation.addByPrefix('idle', 'The Boss idle dance', 14);
@@ -2454,6 +2463,8 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'The Boss Sing note DOWN0', 24, false);
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(32, 35, 61);
+				globalOffset = [-200, 80];
+
 			case 'gorbini':
 				frames = Paths.getSparrowAtlas('characters/gorbini_assets', 'shared');
 				animation.addByPrefix('idle', 'gorbidle', 24, false);
@@ -2473,6 +2484,9 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'Fish Right Note', 24, false);
 
 				barColor = FlxColor.fromRGB(235, 135, 0);
+
+				globalOffset = [0, 390];
+				
 			case 'pewdiepie':
 				frames = Paths.getSparrowAtlas('characters/pewdiepie', 'shared');
 				animation.addByPrefix('idle', 'pewdiepie idle', 24, false);
