@@ -2371,8 +2371,9 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Sing Left', 24);
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(186, 123, 66);
+
 			case 'bob':
-				frames = Paths.getSparrowAtlas('splitathon-2/bob_asset');
+				frames = Paths.getSparrowAtlas('characters/bob_asset');
 				animation.addByPrefix('idle', "bob_idle", 24, false);
 				animation.addByPrefix('singUP', 'bob_UP', 24, false);
 				animation.addByPrefix('singDOWN', 'bob_DOWN', 24, false);
@@ -2386,7 +2387,7 @@ class Character extends FlxSprite
 				flipX = true;
 			
 			case 'hellbob':
-				frames = Paths.getSparrowAtlas('splitathon-2/hellbob_assets');
+				frames = Paths.getSparrowAtlas('characters/hellbob_assets');
 				animation.addByPrefix('idle', "bobismad", 24);
 				animation.addByPrefix('singUP', 'lol', 24, false);
 				animation.addByPrefix('singDOWN', 'lol', 24, false);
@@ -2401,9 +2402,8 @@ class Character extends FlxSprite
 
 				barColor = 0xFF00000;
 
-
 			case 'ron':
-				frames = Paths.getSparrowAtlas('splitathon-2/Tankman');
+				frames = Paths.getSparrowAtlas('characters/Tankman');
 				animation.addByPrefix('idle', "Idle", 24);
 				animation.addByPrefix('singUP', 'Sing Up', 24, false);
 				animation.addByPrefix('singDOWN', 'Sing Down', 24, false);
@@ -2419,7 +2419,7 @@ class Character extends FlxSprite
 
 				barColor = 0xFFffd800;	
 			case 'little-man':
-				frames = Paths.getSparrowAtlas('splitathon-2/Small_Guy');
+				frames = Paths.getSparrowAtlas('characters/Small_Guy');
 				animation.addByPrefix('idle', "idle", 24);
 				animation.addByPrefix('singUP', 'up', 24, false);
 				animation.addByPrefix('singDOWN', 'down', 24, false);
@@ -2428,7 +2428,7 @@ class Character extends FlxSprite
 
 				barColor = 0xFFFFFFF;
 			case 'baby':
-				frames = Paths.getSparrowAtlas('splitathon-2/baby','shared');
+				frames = Paths.getSparrowAtlas('characters/baby','shared');
 				animation.addByPrefix('idle', 'baby', 14);
 				animation.addByPrefix('singUP', 'up', 24);
 				animation.addByPrefix('singRIGHT', 'right', 24);
@@ -2437,7 +2437,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(179, 255, 255);
 			case 'running_goblin':
-				frames = Paths.getSparrowAtlas('splitathon-2/running_goblin','shared');
+				frames = Paths.getSparrowAtlas('characters/running_goblin','shared');
 				animation.addByPrefix('idle', 'idle', 14);
 				animation.addByPrefix('singUP', 'up', 24);
 				animation.addByPrefix('singRIGHT', 'right', 24);
@@ -2446,7 +2446,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(179, 255, 255);
 			case 'boss':
-				frames = Paths.getSparrowAtlas('splitathon-2/bossman','shared');
+				frames = Paths.getSparrowAtlas('characters/bossman','shared');
 				animation.addByPrefix('idle', 'The Boss idle dance', 14);
 				animation.addByPrefix('singUP', 'The Boss Sing note UP0', 24, false);
 				animation.addByPrefix('singLEFT', 'The Boss Sing note LEFT0', 24, false);
@@ -2455,7 +2455,7 @@ class Character extends FlxSprite
 				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(32, 35, 61);
 			case 'gorbini':
-				frames = Paths.getSparrowAtlas('splitathon-2/gorbini_assets', 'shared');
+				frames = Paths.getSparrowAtlas('characters/gorbini_assets', 'shared');
 				animation.addByPrefix('idle', 'gorbidle', 24, false);
 				for (anim in ['left', 'down', 'up', 'right'])
 				{
@@ -2465,7 +2465,7 @@ class Character extends FlxSprite
 				barColor = FlxColor.fromRGB(32, 35, 61);
 
 			case 'fishy':
-				frames = Paths.getSparrowAtlas('splitathon-2/fishyAssets');
+				frames = Paths.getSparrowAtlas('characters/fishyAssets');
 				animation.addByPrefix('idle', "Fish Idle", 24);
 				animation.addByPrefix('singUP', 'Fish Up Note', 24, false);
 				animation.addByPrefix('singDOWN', 'Fish Down Note', 24, false);
@@ -2474,7 +2474,7 @@ class Character extends FlxSprite
 
 				barColor = FlxColor.fromRGB(235, 135, 0);
 			case 'pewdiepie':
-				frames = Paths.getSparrowAtlas('splitathon-2/pewdiepie', 'shared');
+				frames = Paths.getSparrowAtlas('characters/pewdiepie', 'shared');
 				animation.addByPrefix('idle', 'pewdiepie idle', 24, false);
 				for (anim in ['right', 'up', 'up', 'right'])
 				{
