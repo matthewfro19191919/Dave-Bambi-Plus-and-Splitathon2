@@ -2369,7 +2369,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'Sing Right', 24);
 				animation.addByPrefix('singDOWN', 'Sing Down', 24);
 				animation.addByPrefix('singLEFT', 'Sing Left', 24);
-				loadsetFile(curCharacter);
+				loadOffsetFile(curCharacter);
 				barColor = FlxColor.fromRGB(186, 123, 66);
 
 			case 'bob':
